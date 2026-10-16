@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    Fate/Inheritors
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<meta name="author" content="Fate/Inheritors">
+<meta name="description" content="勿惋惜，勿嘲笑，勿憎恶，唯求理解。">
+<meta name="keywords" content="">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://fateinheritors.github.io/styles/main.css" />
+<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+    
+            <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.12/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.12/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://fateinheritors.github.io">
+                    Fate/Inheritors
+                </a>
+            </div>
+
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        首页
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        归档
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        标签
+                    </a>
+                    
+                    <a class="menu-item" href="https://fateinheritors.github.io/post/wesleyan-holy-grail-war">
+                        时间线？
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1792174043605" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://fateinheritors.github.io">
+                            Fate/Inheritors
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1792174043605" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            首页
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            归档
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            标签
+                        </a>
+                        
+                        <a class="menu-item" href="https://fateinheritors.github.io/post/wesleyan-holy-grail-war">
+                            时间线？
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                【Rider】德先生
+                            </h1>
+                            
+                                <!--en-->
+                                <div class="post-meta en">
+                                    Author:
+                                    <a itemprop="author" rel="author" href="/">
+                                        Fate/Inheritors
+                                    </a>
+                                    <span class="post-time">
+                                Date: <a href="#">2026-10-11</a>
+                            </span>
+                                    <span class="post-readtime">Reading Time:<a
+                                    href="#">11.1
+                                    mins</a></span>
+                                    <span class="post-words">words:<a href="#">3244</a></span>
+                                    
+                                        <span class="post-category">
+                                Category:
+                                
+                                <a href="https://fateinheritors.github.io/tag/gd-i3GdUrw/">B</a>
+                                
+                                <a href="https://fateinheritors.github.io/tag/NinKfZWcTF/">Servant</a>
+                                
+                            </span>
+                                        
+                                </div>
+                                
+                        </header>
+                        
+                          
+                        
+<div id="password-gate" style="max-width: 420px; margin: 40px auto; text-align: center;">
+<h3>这篇文章需要密码</h3>
+<p>请输入密码以继续阅读。</p>
+<input
+         id="post-password-input"
+         type="password"
+         placeholder="请输入密码"
+         style="padding: 10px; width: 70%; max-width: 260px;"
+     >
+<button type="button" onclick="unlockPost()" style="padding: 10px 16px; cursor: pointer;">
+解锁文章
+</button>
+<p id="password-error" style="color: #c44;"></p>
+</div>
+
+<div id="protected-content" style="display: none;">
+    <div class="post-content">
+        <p><img src="https://fateinheritors.github.io/post-images/1791727601210.jpeg" alt="" loading="lazy"><br>
+<img src="https://fateinheritors.github.io/post-images/1791727606054.jpeg" alt="" loading="lazy"><br>
+<img src="https://fateinheritors.github.io/post-images/1791727610368.jpeg" alt="" loading="lazy"><br>
+Master：<a href="https://fateinheritors.github.io/post/master-enzo-ramirez">Enzo Ramirez</a></p>
+<p>伍连德</p>
+<p>Rider职阶：敏捷+5%，幸运+3%，可携带一个受骑乘效果影响的坐骑。</p>
+<p>基础属性<br>
+筋力 E（1）耐力 C（3）敏捷 A（5）魔力 A（5）幸运 E（1）宝具 A（5）HP：24（初始）+15+3<em>3（C级）＝48MP：14（初始）+10+2</em>5（A级）＝34普通攻击成功率：30%（初始）+10%*1（E级）+5%（职阶技能）＝45%敏捷鉴定成功率：10%（初始）+10%*5（A级）+5%（职阶）＝65%幸运鉴定/闪避成功率：10%（初始）+5%*1（E级）+3%（职阶）+5%（职阶技能）＝23%</p>
+<p>职阶技能骑乘A（5）<br>
+召唤传说中的神话生物“年兽”进行骑乘，“年兽”具有强大的力量但恐惧巨响。虽然做过脱敏训练但是还是无法接受太大的逼动静。极端情况下有可能把主人撂那不回家吃饭了。<br>
+可以驾驭使魔“年兽”进行移动，除伍连德外可至多再携带两人，常时移动速度提升至8格，不可以飞行。当与年兽同行时，伍连德的普通攻击成功率和幸运鉴定成功率+5%。战时年兽固定在伍连德行动后进行一次普通攻击，普通攻击成功率固定为伍连德的一半，伤害为D5+D3。若战斗中有任何单位使用对城及以上宝具，年兽会立刻从战场中逃跑消失，会在一个行动点（3小时）后回归，或可消耗3MP进行及时召回。</p>
+<p>对魔力D（2）<br>
+获得2点宝具伤害减免。</p>
+<p>固有技能逆天启.鼠疫斗士A（7）<br>
+名字很酷炫的质朴技能，顾名思义，天启的骑士带来瘟疫，而逆天启的骑士则治愈瘟疫，此处瘟疫可以引申至一切病痛与伤痛。被动技能，不分敌我，方圆三米之内检测到有人受伤则自动进行回血，奶量可以说是惊人。<br>
+如果非己方单位在某一轮次内接受到该技能的被动治疗，则该轮次内对方的攻击力与战斗意志受到越10%的削弱。如果对手赖在奶圈不走则之后每一轮削弱效果再叠加5%，最多叠加至削弱55%（但话又说回来谁会在对手圈里蹭十个回合的奶啊神经病吧！）<br>
+每6小时一次，常时若当同一地图格有任何单位失去HP时，伍连德自动为其回复15%的最大HP（向下取整，最低为1）。<br>
+战时与常时不共享CD，若战斗轮内有任何单位失去HP时，伍连德在一轮结束后消耗5MP自动为所有损失HP的单位回复7%的当前HP（向下取整，最低为1），若受到回复的单位为敌方，则立刻减少回复单位5%的普通攻击概率，且为其叠加10%的【怯战】状态，且每多受到一次回复就叠加5%。【怯战】在敌方每轮行动前进行鉴定，若鉴定成功则该单位本轮无法进行任何非宝具的行动，且清除叠加的成功率。</p>
+<p>燃烧的庆祝时刻!E（3）<br>
+召唤能够随意操纵形态的火焰，可以照明、取暖以及加热食品，但火焰无法对人产生烧伤，没有任何战斗上的作用。（一定要说的话对年兽起一个火光脱敏训练道具的效果，防止坐骑看到有人拿出打火机微下他跑了。）<br>
+上吧,master!打他!<br>
+字面意思，倒反天罡，对一个英灵来说挺丢人的。<br>
+常时可以消耗一个行动点（3小时）对年兽进行训练，训练后年兽下一次战斗轮的普通攻击概率与伍连德相同，且不会被对城宝具吓跑。该效果无法进行叠加。</p>
+<p>宝具伍氏口罩A<br>
+对人宝具，某种意义上或许也可以理解为对小动物宝具，可以同时作用于两个个体的一对口罩，一个由伍连德本人持有，另一个持有者则被视为他的加护对象。使用时口罩对双方都形成护盾效果，并且伍连德可以通过该宝具将驾驭年兽的能力授权给被加护方。<br>
+CD：12小时一次<br>
+消耗10MP常态持有，伍连德获得两个口罩，默认自身持有一个，另一个由伍连德进行指定。佩戴口罩的单位拥有10HP的护盾，且每轮/每大回合伍连德进行无差别回复总量的HP50%（向下取整，最低为1）将累计护盾值（上限为15），该口罩的护盾无法以除累计护盾值以外的方式进行修复。伍连德可宣言持有口罩的另一个单位拥有驾驭年兽的能力（即年兽在该单位行动后进行行动，数值同样进行改变），但不可两个人同时进行驾驭。</p>
+<p>烈焰与哀荣的礼葬B<br>
+对城宝具，焚化点火用的一把火炬，可以在约一座城市的范围内抹除当前存在的由超自然力量带来的负面影响，但对如增幅等正面效果无效，此中负面影响只判定为物理上的伤残或debuff，心理创伤等则爱莫能助。不可抹除记忆或将死者复活。<br>
+CD：18小时一次<br>
+吟唱：2轮<br>
+消耗15MP，立刻驱散范围内己友方所有由敌方赋予的小于对城宝具权重的负面效果（不包括被动造成）。若在剧情/常时中使用，则范围扩大到5×5地图格，且效果会更加显著。</p>
+<p>神秘小摔炮？？？<br>
+对喜庆场合宝具，偶尔可以丢出来炸人玩，对任何人的效果约等于正常摔炮崩一下，没有任何特殊作用，神奇之处仅在于他掏这东西不用花钱。<br>
+（很明显在乱入）（伍师傅别玩了干点正事）<br>
+不消耗MP，不具有CD，无需吟唱，伍连德可以随时随地掏出鞭炮，对其他单位造成惊吓。</p>
+<h2 id="故园风雨后">故园风雨后</h2>
+<p>“怒发冲冠，凭栏处、潇潇雨歇。抬望眼，仰天长啸，壮怀激烈。三十功名尘与土，八千里路云和月。莫等闲，白了少年头，空悲切。<br>
+靖康耻，犹未雪。臣子恨，何时灭……”<br>
+灭字的尾调拖了好长，已至于原本男儿铁心谱出来的硬词也被拖的绵软，似有所思，他忽然不唱了。<br>
+伍连德会唱词，这倒是不稀奇。毕竟他是一个清朝人，开嗓如果是邓丽君周杰伦什么的话，反而比较诡异。况且没有人规定搞学问不能多才多艺，研究现代医学就不许鼓捣传统文化。<br>
+然后就有人说，其实是稀奇你平时多说英语，中文水平居然这样好。<br>
+可不么。他回答。我是中国人呐，我们伍家人从前是台山那边来的。<br>
+诚然他这人自由生长于南洋，后来又求学于西洋，早年间人生履历没得故土全是洋，故而中文水平——具体来说应该是官话水平，或者普通话水平，当然时过境迁这二者早不是一般东西，不过左右着他在这方面是一根筋两头堵的——不是特别禁得起琢磨，容不得贾岛诗里的月下僧推敲，但也没有烂到连岳武穆的满江红都没背住的地步。<br>
+真那样就有点数典忘祖无国无家了。<br>
+如果要说有什么是奇怪的，倒不如说他从来都只唱这一首词奇怪。不论是当年在海外遇上从前在北洋水师服役的叔父时同唱，还是后来学成归还南洋为淑琼的那一曲，他这人跟被误触了单曲循环不知道怎么调回去一样，翻来覆去就这样一首。<br>
+那就有人要问了：到底还是汉语水平只支持这么一段吗？<br>
+自然不是。他再回答。我其实知道别的词曲，你实在要我唱“明月几时有”，唱“花褪残红青杏小”，那我也唱得（再冷门可能确实超越他汉语水平了，不过咱也不好妄断）。只是叫这样的心唱那样的词，便不觉得违心么？<br>
+君不得不见我的祖国如今被列强敲骨吸髓，我的同胞们处处遭人白眼，个个抬不起头来，那些好儿郎被称作什么东亚病夫，我是少年人呐，怎不怒发冲冠？诚然我只见过那英伦三岛多有的冰丝似的冷雨，没踏上过华夏大地，没淋过当年岳武穆在襄阳的那场潇潇急雨，可你能说我没有岳王那样一颗心吗？<br>
+那靖康耻，是犹未雪。那臣子恨，能何时灭？<br>
+我唱他的满江红，是此情此景此心罢了。<br>
+可或许所谓“乘兴而来，尽兴而归”吧，君子风从来如此。一如王子猷没了兴致就也不必见到戴安道，他白了少年头，变了心境就难再唱从前的词曲。从他年轻的壮怀激烈的时侯已经过去了一百来年，距离他八十多岁撒手人寰也已经有大半个世纪。日月翻改，山河重振，任是有什么耻也雪了恨也灭了，现在讲究全球化与世界和平，而且他这人口也清淡，便更没有心思想餐胡虏肉，饮匈奴血。<br>
+别说现在，哪怕是当年还活着的时候，他的后半阙人生大约也和武穆词没关系了。毕竟自侵华战争打起，他几次三番遭日本人迫害，几乎无处立锥之后，他便携妻儿离开华夏大地了。<br>
+他是个搞现代科学的人，大约是没有一双诗眼的，不过确实也看倦了天涯，于是乎数间茅舍，藏书万卷，投老村家，后半辈子余下的问答便只有“山中何事？松花酿酒，春水煎茶。”<br>
+然而即便如此，那些年对着南洋雨季热雾似的大雨，他偶尔也还会吧满江红翻会唇齿间喃喃哼上几句，只是当年和他唱的人再也没有了罢了。<br>
+如今倒是彻底没有那番心情了。<br>
+说没心情不是坏事，反倒是因为二十一世纪的新中国确实算是好起来了，人不用在常悲伤，常愤怒，再念当年词句，哪怕知悉意思，到底少了感觉。只是没了那辗转几句词歌，伍连德偶尔觉着口头又有些空。<br>
+他自觉是不是应该给自己找个新口头禅之类的，却觉得肠肚（或者用更符合他人设的现代医学观念来讲，脑子）里能搜刮出的尽没一首诗词是全然称心和意的。“直到某日他偶然间也不知道在哪里看到这样一句——“故园风雨后”。<br>
+难说怎地戳中了终年客子的心肠，兴许只因为句中句外终于是不下雨了，总之，打那时开始，以英灵之身回到人间的伍连德便开始改念这么一句话。<br>
+于是乎又有人要问了。就这五个字么？没曲没词也没个前因后果要怎么唱呢？<br>
+不是唱，只是念。他又回答。说来倒也惭愧，一开始从不知哪里拾到这短短五一句话时，我以为这话出自某首古人诗的，后来才发现这是部书的名字。<br>
+这书本叫Brideshead Revisited ，是个英国作家在1945 年留下的手笔。《故园风雨后》是个后来人的译称，而且算是昵称大家庭中的小辈，是2018年王一凡的手笔，一个六几年死去的人实难知道，只可惜伍先生又没词儿可唱了。<br>
+“或许您可以写首词，把这五个字儿缝进去呢？“<br>
+这是再后来又有人给支的主意。伍连德也不是没想过这么干，不过到底觉得，“故园风雨后“这一句话是一种无情的恰当，就不该有抒怀慨叹后果前因来配，否则，岂不就是风雨中，而非风雨后了吗？<br>
+于是他就对这个提议敬谢不敏了，说：<br>
+“算了吧，我中文水平不到位，续不了这个。“<br>
+“你要实在想听歌，反正也二十一世纪了，我现在真会唱周杰伦。”</p>
+
+    </div>
+</div>
+
+<script>
+    function unlockPost() {
+        const input = document.getElementById("post-password-input").value;
+        const correctPassword = "672778";
+
+        if (input === correctPassword) {
+            document.getElementById("password-gate").style.display = "none";
+            document.getElementById("protected-content").style.display = "block";
+        } else {
+            document.getElementById("password-error").textContent = "密码错误，请重试。";
+        }
+    }
+
+    document.getElementById("post-password-input").addEventListener("keydown", function(event) {
+        if (event.key === "Enter") unlockPost();
+    });
+</script>
+
+
+                        
+                                
+                                    
+                                        <!--en-->
+                                        <section class="post-copyright en">
+                                            <p class="copyright-item">
+                                                <span>Author:</span>
+                                                <span>Fate/Inheritors</span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>Permalink:</span>
+                                                <span><a href="https://fateinheritors.github.io/post/rider-De/">https://fateinheritors.github.io/post/rider-De/</a></span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>License:</span>
+                                                <span>MIT License</span>
+                                            </p>
+                                        </section>
+                                        
+                                                
+                                                    
+                                                        <!-- Share-->
+                                                        <span style="margin-right:15px">
+                                                    <i class="post-share"></i>
+                                                    <span>Share:</span>
+                                                        <a title="QR Code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://fateinheritors.github.io/post/rider-De/"><i class="fa fa-qrcode"></i></a>
+                                                        <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://fateinheritors.github.io/post/rider-De/&sharesource=qzone&title=【Rider】德先生&pics=https://fateinheritors.github.io/images/avatar.png?v=1792174043605&summary="><i class="fa fa-qq"></i></a>
+                                                        <a title="Weibo" target="_blank" href="https://service.weibo.com/share/share.php?url=https://fateinheritors.github.io/post/rider-De/&sharesource=weibo&title=【Rider】德先生 + " - " + &pic="https://fateinheritors.github.io/images/avatar.png?v=1792174043605 "><i class="fa fa-weibo "></i></a>
+                                                        
+                                                                </span>
+                                                                <!--en-->
+                                                                <section class="post-tags en ">
+                                                                    <div>
+                                                                        <span>Tag(s):</span>
+                                                                        <span class="tag ">
+                        
+                        
+                        <a href="https://fateinheritors.github.io/tag/gd-i3GdUrw/">#
+                                                B
+                                                    </a>
+                                                    
+                        <a href="https://fateinheritors.github.io/tag/NinKfZWcTF/">#
+                                                Servant
+                                                    </a>
+                                                    
+                                                        
+                                                            </span>
+                                                                    </div>
+                                                                    <div>
+                                                                        <a href="javascript:window.history.back();">back</a>
+                                                                        <span>&dot;</span>
+                                                                        <a href="#">home</a>
+                                                                    </div>
+                                                                </section>
+                                                                
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                        <a class="prev" rel="prev" href="https://fateinheritors.github.io/post/dang-an-guan-a-arc/">
+                                                                                            【档案馆】A-arc
+                                                                                        </a>
+                                                                                        
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://fateinheritors.github.io/post/master-enzo-ramirez/">
+                                                                                                    【Master】Enzo Ramirez
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                    </article>
+                </div>
+                
+                                            
+            </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="player"></div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        Supported by <a href="https://www.wesleyan.edu/" target="_blank">Wesleyan University</a>
+                            
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        Fate/Inheritors &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://typemoon.com/" target="_blank">
+                                                TYPE-MOON
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.5
+                </div>
+                
+                    <script>
+                        var pat = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + pat + '</div>')
+                    </script>
+        </footer>
+        
+                <script>
+                    
+
+                    function LoadPlayer() {
+                        var music_array = [];
+                        
+                        music_array.push({
+                            name: 'Goldberg Variations, BWV 988:Aria',
+                            url: 'http://music.163.com/song/media/outer/url?id=18001009.mp3',
+                            artist: 'Bach',
+                            cover: 'https://p2.music.126.net/wm5ailNq6zWQIUR_crS2iA==/109951165154080243.jpg',
+                        });
+                        
+                        console.log(" MusicList: " + music_array);
+                        
+                        const ap = new APlayer({
+                            container: document.getElementById('player'),
+                            fixed: true,
+                            audio: music_array
+                        });
+                        
+                    }
+                    LoadPlayer();
+                    
+                    
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1792174043605);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+                
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>
+<script>
+(function () {
+    // 禁止右键菜单
+    document.addEventListener("contextmenu", function (event) {
+        event.preventDefault();
+    });
+
+    // 禁止常见开发者工具和查看源代码快捷键
+    document.addEventListener("keydown", function (event) {
+        const key = event.key.toUpperCase();
+
+        // F12
+        if (event.key === "F12") {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+
+        // Ctrl + Shift + I / J / C
+        if (
+            event.ctrlKey &&
+            event.shiftKey &&
+            ["I", "J", "C"].includes(key)
+        ) {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+
+        // Ctrl + U
+        if (event.ctrlKey && key === "U") {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+
+        // Mac: Cmd + Option + I / J / C
+        if (
+            event.metaKey &&
+            event.altKey &&
+            ["I", "J", "C"].includes(key)
+        ) {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+
+        // Mac: Cmd + Option + U
+        if (event.metaKey && event.altKey && key === "U") {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+    }, true);
+})();
+</script>

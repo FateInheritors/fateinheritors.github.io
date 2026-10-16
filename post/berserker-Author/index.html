@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    Fate/Inheritors
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<meta name="author" content="Fate/Inheritors">
+<meta name="description" content="勿惋惜，勿嘲笑，勿憎恶，唯求理解。">
+<meta name="keywords" content="">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://fateinheritors.github.io/styles/main.css" />
+<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+    
+            <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.12/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.12/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://fateinheritors.github.io">
+                    Fate/Inheritors
+                </a>
+            </div>
+
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        首页
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        归档
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        标签
+                    </a>
+                    
+                    <a class="menu-item" href="https://fateinheritors.github.io/post/wesleyan-holy-grail-war">
+                        时间线？
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1792174043605" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://fateinheritors.github.io">
+                            Fate/Inheritors
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1792174043605" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            首页
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            归档
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            标签
+                        </a>
+                        
+                        <a class="menu-item" href="https://fateinheritors.github.io/post/wesleyan-holy-grail-war">
+                            时间线？
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                【Berserker】作家
+                            </h1>
+                            
+                                <!--en-->
+                                <div class="post-meta en">
+                                    Author:
+                                    <a itemprop="author" rel="author" href="/">
+                                        Fate/Inheritors
+                                    </a>
+                                    <span class="post-time">
+                                Date: <a href="#">2026-10-11</a>
+                            </span>
+                                    <span class="post-readtime">Reading Time:<a
+                                    href="#">15.5
+                                    mins</a></span>
+                                    <span class="post-words">words:<a href="#">4052</a></span>
+                                    
+                                        <span class="post-category">
+                                Category:
+                                
+                                <a href="https://fateinheritors.github.io/tag/gd-i3GdUrw/">B</a>
+                                
+                                <a href="https://fateinheritors.github.io/tag/NinKfZWcTF/">Servant</a>
+                                
+                            </span>
+                                        
+                                </div>
+                                
+                        </header>
+                        
+                          
+                        
+<div id="password-gate" style="max-width: 420px; margin: 40px auto; text-align: center;">
+<h3>这篇文章需要密码</h3>
+<p>请输入密码以继续阅读。</p>
+<input
+         id="post-password-input"
+         type="password"
+         placeholder="请输入密码"
+         style="padding: 10px; width: 70%; max-width: 260px;"
+     >
+<button type="button" onclick="unlockPost()" style="padding: 10px 16px; cursor: pointer;">
+解锁文章
+</button>
+<p id="password-error" style="color: #c44;"></p>
+</div>
+
+<div id="protected-content" style="display: none;">
+    <div class="post-content">
+        <p><img src="https://fateinheritors.github.io/post-images/1791651967319.png" alt="" loading="lazy"><br>
+<img src="https://fateinheritors.github.io/post-images/1791651973425.png" alt="" loading="lazy"><br>
+<img src="https://fateinheritors.github.io/post-images/1791651983759.png" alt="" loading="lazy"></p>
+<p>Master：<a href="https://fateinheritors.github.io/post/master-issac-brody">Isaac Brody</a></p>
+<p>米歇尔·福柯</p>
+<p>Berserker职阶：筋力+5%，休息时的恢复效果翻倍。</p>
+<p>基础属性<br>
+筋力 D+（2.5）<br>
+耐力 D（2）<br>
+敏捷 D（2）<br>
+魔力 A（5）<br>
+幸运 C（3）<br>
+宝具 A+（5.5）<br>
+HP：30（初始）+15+3<em>2（D级）+3（狂化）＝54<br>
+MP：11（初始）+10+2</em>5（A级）+3（狂化）＝34<br>
+普通攻击成功率：30%（初始）+10%*2（D级）+5%（职阶技能）+3%（狂化）＝58%<br>
+敏捷鉴定成功率：10%（初始）+10%*2（D级）＝30%<br>
+幸运鉴定/闪避成功率：10%（初始）+5%*3（C级）＝25%</p>
+<p>职阶技能<br>
+狂化A（5）<br>
+言行可以说与疯狂毫无关系，但知道她真名的人，大概不会对这个狂化等级感到意外。<br>
+不仅因为她此次现界后自行篡改了性别、年龄与外貌，更因为她对于“疯狂”这一概念本身的持续质疑，已经使通常意义上的“理性／非理性”判定难以适用于她。<br>
+从根本上，米歇尔·福柯否认了负责判定她是否理性的标准，但因为她仍旧使用理性框架去试图解构“疯狂”，故而，此等级只能到A。<br>
+筋力、耐久和魔力获得3%加成，交流相当困难或与常人有着较大的思维差异。</p>
+<p>阵地做成D（2）<br>
+和魔术师的魔术工坊类似，只不过这是属于学者特有的精神残留物，生前的工作室、书房甚至每次辩论赛的场所都是组成部分。也许对于哲学家来说，只要他们的大脑和舌头仍旧可以运作，那就永远都会有这种阵地。<br>
+消耗2MP制造，阵地拥有7HP。</p>
+<p>固有技能<br>
+知识考古D（4）<br>
+由米歇尔·福柯本人命名并发展的一套研究方法。其目的并不是追寻历史背后的唯一真实起源，而是分析在特定时代中，究竟是什么条件使某些话能够被说出来，并进一步成为知识、事实甚至真理。<br>
+严格而言，它并非传统历史学方法，也曾遭到大量历史学家的批评。然而其影响早已越出哲学范畴，对其它多个人文社科领域产生了广泛影响。<br>
+被动技能。首次遭遇其他单位时，可获得对方一项公开资料以外的非宝具技能信息（数值和部分效果打码）或基础数值，若此前已知晓该信息，则自身受到攻击时敌方攻击鉴定-3%。</p>
+<p>四因素构型B（6）<br>
+米歇尔·福柯在《规训与惩罚》一书中将四种权力技术整合为一个构型，通过塑造一个微观权力网络而获得驯服的肉体。<br>
+主动技能。消耗7MP指定一位敌方单位，对其施加【规训】效果，持续两轮。立即扣除目标D3的HP，目标重复上一轮非宝具行动时，该行动鉴定-5%。</p>
+<p>宝具<br>
+“对现世一切的绝对批判”（伪）<br>
+等级：B<br>
+种类：对界宝具<br>
+有效范围：1～999<br>
+最大捕捉：999<br>
+描述：这是她死后获得的评价之一，模仿那句伟大的宣言，评论人带有的戏谑或者真心称赞，对她已经没有意义。<br>
+她本人并不承认存在一个可以被固定描述的“福柯”，更不承认死亡之后由传记、纪念、批评和学术分类共同制造出的那个形象能够代替自己。她用这个与她生前立场仿佛背道而驰的宝具，如此宣言：“没有人能定义我，包括我自己。”<br>
+CD：12小时一次<br>
+吟唱：一个轮次<br>
+效果：消耗13MP，解除己方一切负面状态，指定敌方单体攻击鉴定-7%两轮。</p>
+<p>Sous le soleil de la grande recherche nietzschéenne（真）<br>
+等级：A+<br>
+种类：对军宝具<br>
+有效范围：3～80<br>
+最大捕捉：200<br>
+描述：这是名为米歇尔·福柯的人将自己思想谱系追溯至尼采时留下的一缕残光，疯了的哲人拥抱马之后死去，福柯否认却接纳了这份“疯狂”。神的死亡后是存在的死亡，她不断追求着死亡，做着和“道德”背道而驰的事，直到阿波罗和狄俄尼索斯也沉浸入只有梦能达到的边界。<br>
+继续下去吗？当然继续下去。<br>
+在紧紧绷住的痛苦之中，哲学的崩毁带来极致的灵光，也许这就是他的太阳，和他的死亡。<br>
+CD：6小时一次<br>
+吟唱：一个轮次<br>
+效果：消耗12MP，赋予自身无敌贯通状态，对敌方全体造成17HP伤害。</p>
+<h2 id="忘记福柯oublier-foucault">忘记福柯（Oublier Foucault）</h2>
+<p>2013年，福柯的长期伴侣丹尼尔·德菲尔以350万欧元的价格将37,000页手稿，售卖给了法国巴黎国家图书馆[1]。BNF无不自豪地宣称，这是“米歇尔·福柯回家”，在那篇公告里，里面深情地表示，自福柯青年时代以来，他的大部分思考都是在这间图书馆中度过，“他早就想当这里的馆长。”[2]<br>
+350万欧元当然是笔巨款，相当于当年法国中位数收入的全职雇员一百多年的收入，足够在巴黎市区购买三到五间公寓[3]。Nouvel Observateur在2012年的一篇访谈中，德菲尔曾回答过这笔钱的去处，“我要翻新这套四十年都没翻修过的公寓。至于其他的，你们到时候就知道了。我不会对还没做的事情做出承诺。”最后他轻描淡写道“我明天可能就死了。”[4]<br>
+这或许正是他决定把手稿交给BNF的原因之一，在2012年，他已经七十几岁，而且刚刚做完心脏瓣膜手术[5]，他如此虚弱，而除了他，大概也没有任何人能处理福柯的这批遗物，哪怕是福柯的家人。</p>
+<p>当1960年，丹尼尔·德菲尔和米歇尔·福柯初相识的时候，他可能很难想到自己跟这个初看有些不顺眼的人维持某种关系长达二十几年[6]。他称这种关系为“intense”，福柯则在1981年和施罗德的访谈中，把这段关系称为“passion”[7]。不过很符合福柯习惯的是，他并没有提起这个人的姓名，这也是他唯一一次公开承认自己和某人的亲密关系，对于这个极度谨慎定义自己的人来说，“公开谈论”也许就是“passion”最好的解释。</p>
+<p>福柯并不愿意自己死后出版自己未出版的手稿，他不断告诉其他人这件事情，也在遗嘱中这么写到[8]。但是很明显，他死后仍旧有大量作者署名为他的新书出版。一开始，是在法兰西公学中的演讲稿，他上课时也允许学生录制音频，他死后根据课堂录音和笔记，整理出版了 13 卷讲稿。然后是德菲尔和福柯的助手弗朗索瓦·埃瓦尔德（François Ewald）将福柯生前已经发表、接受发表、演讲或访谈过的材料整理出版为《言与文》。中间还有许多讲座与对谈的重新发表。<br>
+但是这些都卡在一个很微妙的点，出版方都宣称这些都是福柯生前就已经公开发表的东西，不算“遗作”。而属于福柯的那约100箱的手稿进入BNF后，这个界限就变得非常模糊，目前其中的大部分都可以供研究者借阅，这些阅读和研究福柯生前未发表著作的人，他们的成果算是对福柯遗愿的违背吗？<br>
+长久以来，作为福柯“事实意义上的‘遗孀’”，虽然他本人一直拒绝这个称呼和被福柯绑定，但是无疑许多探究都落到了他身上。<br>
+福柯死后，将自己在沃吉拉尔街的公寓和里面的一切东西都留给了德菲尔。上个世纪八十年代的法国并不承认同性婚姻，所以德菲尔“像其他陌生人一样，必须缴纳65%的遗产税、60%的公寓税，以及5%的室内物品税”[9]，这无疑对当时德菲尔又是一记重击，爱人去世，而自己要缴纳昂贵的税款才能留住他的遗物。颇具讽刺意味的是，上门评估的政府官员对后来350万欧元的部分兴致缺缺，称“一文不值”。[10]<br>
+这批最后进入BNF的档案，见证了这一切。在德菲尔看来，这本身就是政治史的一部分[11]，因为它见证了同性情侣之间遗产法的改变，以及，福柯作为一个不想被研究私生活的人，他私生活的一部分，终究摊在了众人面前。<br>
+相较于福柯在学术上的成就，德菲尔更多的投身于社会运动中，他影响最大的活动便是建立了艾滋病援助组织——AIDES。这个组织是在福柯死后建立的，当时法国社会对他的死因众说纷纭，但他的某位朋友在《解放报》上撰文严厉谴责了福柯是死于艾滋病的猜测[12]，一位医生甚至提出，可以把这个诊断从记录上抹掉[13]。当时欧美社会弥漫着一股关于艾滋病微妙的气氛，它被称为“同性恋癌症”[14]，被认为只在男同性恋之间发生，这个说法颇有些古典意味，天灾精准地落在了“不道德”的人群身上。<br>
+而AIDES的建立，几乎就是认证了福柯死于一种会影响他名誉的疾病，尤其德菲尔还直接说，这个组织的建立就是因为福柯[15]。各界对此反响不一，但是这个机构延续到了今天，它不止帮助了很多人，还提出了一种理念，即“让患者自己成为医疗、研究和公共政策中的行动者”[16]。这其实和福柯对精神病学的解构很像，他在第一本《性史》中说，患者必须被迫袒露自己，由医生等权威者解读自己，由他者定义自我，德菲尔做的事显然与这截然相反。[17]</p>
+<p>福柯和德菲尔都不是喜欢谈论自己感情生活的人，对他们之间情谊的了解，往往来自第三者叙述。在他们所处的部分知识分子与同性社群中，非排他关系并不罕见，不过这并不意味着更高贵或者更卑劣，它是两个人共同的选择。不过波伏娃在1943年的小说《女宾》中，就是描述一段令主人公疯狂、嫉妒乃至于窒息的三角关系。<br>
+很难说这种不对称有没有出现在福柯与德菲尔之间，但德菲尔说过这段关系总是在“在爱的时刻和痛苦的时刻之间，一直都很强烈”。[18]</p>
+<p>2018年，福柯的家族决定出版福柯的遗作第四本《性史》，是的，福柯留下了公寓及里面的一切，但是出版权一直在他的家族手里。</p>
+<p>德菲尔死时，并未安排宗教性质的葬礼，也没有任何影像流出，参与的人大多是与传染病相关的学者或者官员。[19]<br>
+法国总统府的悼词写“……他的一生始于1960年与福柯的相遇”，“……他把哀悼变成了战斗，把痛苦变成了动力，以此纪念福柯。”而其他悼词，大多是怀念德菲尔本身的性格，还有他作为社会运动家所做出的一切。[20]<br>
+很多年前，福柯在拉着德菲尔去购买同居物品时，福柯说德菲尔是自己的伴侣，德菲尔有些尴尬。后来他们又说到去苏格兰结婚，据说那里有一个长老会牧师会给同性伴侣证婚。终其一生，他和福柯都互相称对方为“vous”（您）。<br>
+后来如此很多年。<br>
+德菲尔死前交出了最后一批福柯和其它学者的通信记录，而他和福柯的，他说：“我会带进坟墓。”</p>
+<p>1977年，让·鲍德里亚（Jean Baudrillard）写了《忘记福柯》这本书，以批评福柯的理论过于完美，反倒成了某种权力。而据说哲人对此的反应是：“我反倒不记得谁是鲍德里亚。”从2014年到今年，法国和意大利都在数字化福柯的手稿，即便如何不情愿，他的人生还是凝固在了电子数据流里，并且可以想见，只要人类还存在，他的这些手稿也将永存。只是属于这两个人的故事，除了那两个克制的单词，似乎什么都没留下。</p>
+<p>“那天，你们拿着家具走过长街时，巴黎有下雪吗？”</p>
+<p>[1]Bibliothèque nationale de France, Rapport d’activité 2013, « Les archives de Michel Foucault entrent à la BnF »；Bibliothèque nationale de France, « Inventaire du Fonds Michel Foucault »；Journal officiel de la République française, n°0103, 3 mai 2013, texte n°72.<br>
+[2]Bibliothèque nationale de France, « Michel Foucault de retour à la BnF », Chroniques de la BnF, no 70, 2014, pp. 26–27, Pierre Assouline, « À qui les archives Foucault ? », Le Monde, 26 avril 2012.<br>
+[3]Hélène Chaput, Christine Pinel et Lionel Wilner, « Salaires dans le secteur privé et les entreprises publiques », Insee Première, no 1565, septembre 2015.<br>
+[4]Éric Aeschimann et Isabelle Monnin, « Daniel Defert : “Les archives de Foucault ont une histoire politique” », BibliObs / Le Nouvel Observateur, 6 novembre 2012, mis à jour le 8 novembre 2012.<br>
+[5]«Nous avons tous commencé à militer à partir d’émotions, de deuils, de colères, de rages, de dégoûts, face aux stigmates, à la violence de l’institution médicale quand elle ne nous ignorait pas complétement.» Daniel Defert, Congrès de Aides, Nantes, 2017.<br>
+[6]Daniel Defert, « Michel Foucault n’a jamais cessé d’être présent », entretien publié par Yagg, repris par Komitid, 23 juin 2014.<br>
+[7]Michel Foucault, « Conversation avec Werner Schroeter », entretien enregistré en décembre 1981, initialement publié dans Werner Schroeter, Goethe-Institut/Cinémathèque française, 1982；收入Daniel Defert et François Ewald (dir.), Dits et écrits II, 1976–1988, Paris, Gallimard, coll. « Quarto », 2001, pp. 1070–1079，尤其pp. 1073–1076。另见Gérard Courant整理文本：« Voilà dix-huit ans que je vis dans un état de passion vis-à-vis de quelqu’un, pour quelqu’un. »<br>
+[8]Daniel Defert, « Michel Foucault n’a jamais cessé d’être présent », Yagg/Komitid, 23 juin 2014, 同前；Marianne Dautrey et Florent Georgesco, « Des “Aveux de la chair” obtenus à force de patience », Le Monde, 7 février 2018.<br>
+[9]Éric Aeschimann et Isabelle Monnin, « Daniel Defert : “Les archives de Foucault ont une histoire politique” », BibliObs / Le Nouvel Observateur, 6 novembre 2012, 同前。<br>
+[10]同[9]<br>
+[11]Ibid. 原文：« L’histoire de ces archives n’aurait pas été la même si nous avions été pacsés ou mariés. » Defert在访谈中将档案、继承税以及艾滋病年代同性伴侣失去住所的经历联系起来。<br>
+[12]詹姆斯·E.米勒：《福柯的生死爱欲》，高毅译，上海人民出版社，2018年。<br>
+[13]Daniel Defert, « Michel Foucault n’a jamais cessé d’être présent », Yagg/Komitid, 23 juin 2014, 同前。Defert称入院文件写着« Cause du décès : sida »，医生Odile Picard对他说：« Ne vous inquiétez pas, ça sera effacé. » 该叙述所指是死亡原因记录，并非尸检结果。<br>
+[14]Archives nationales, « Institut national de la santé et de la recherche médicale (INSERM) », notice d’autorité et présentation des archives relatives au sida.<br>
+[15]Daniel Defert, « Michel Foucault n’a jamais cessé d’être présent », Yagg/Komitid, 23 juin 2014, 同前。原文：« J’ai créé l’association Aides non pas sur le nom de Foucault mais en mémoire, par rapport à lui. » 另见AIDES, « Décès de Daniel Defert, fondateur de AIDES », 7 février 2023.<br>
+[16]同[5]<br>
+[17]Michel Foucault, Histoire de la sexualité I : La volonté de savoir, Paris, Gallimard, 1976, pp. 76–84，尤其是对« aveu »作为权力关系中话语仪式的分析。正文中“患者被迫袒露、由权威解释并定义”的说法属于对相关论述的概括和延伸，并非原文直接引语。<br>
+[18]Daniel Defert, « Michel Foucault n’a jamais cessé d’être présent », Yagg/Komitid, 23 juin 2014, 同前。<br>
+[19]Archives nationales, « Collectif en hommage à Daniel Defert (France ; 2023) », FranceArchives, identifiant FRAN_NP_053653.<br>
+[20]Présidence de la République, « Décès de Daniel Defert », 8 février 2023</p>
+
+    </div>
+</div>
+
+<script>
+    function unlockPost() {
+        const input = document.getElementById("post-password-input").value;
+        const correctPassword = "672778";
+
+        if (input === correctPassword) {
+            document.getElementById("password-gate").style.display = "none";
+            document.getElementById("protected-content").style.display = "block";
+        } else {
+            document.getElementById("password-error").textContent = "密码错误，请重试。";
+        }
+    }
+
+    document.getElementById("post-password-input").addEventListener("keydown", function(event) {
+        if (event.key === "Enter") unlockPost();
+    });
+</script>
+
+
+                        
+                                
+                                    
+                                        <!--en-->
+                                        <section class="post-copyright en">
+                                            <p class="copyright-item">
+                                                <span>Author:</span>
+                                                <span>Fate/Inheritors</span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>Permalink:</span>
+                                                <span><a href="https://fateinheritors.github.io/post/berserker-Author/">https://fateinheritors.github.io/post/berserker-Author/</a></span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>License:</span>
+                                                <span>MIT License</span>
+                                            </p>
+                                        </section>
+                                        
+                                                
+                                                    
+                                                        <!-- Share-->
+                                                        <span style="margin-right:15px">
+                                                    <i class="post-share"></i>
+                                                    <span>Share:</span>
+                                                        <a title="QR Code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://fateinheritors.github.io/post/berserker-Author/"><i class="fa fa-qrcode"></i></a>
+                                                        <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://fateinheritors.github.io/post/berserker-Author/&sharesource=qzone&title=【Berserker】作家&pics=https://fateinheritors.github.io/images/avatar.png?v=1792174043605&summary="><i class="fa fa-qq"></i></a>
+                                                        <a title="Weibo" target="_blank" href="https://service.weibo.com/share/share.php?url=https://fateinheritors.github.io/post/berserker-Author/&sharesource=weibo&title=【Berserker】作家 + " - " + &pic="https://fateinheritors.github.io/images/avatar.png?v=1792174043605 "><i class="fa fa-weibo "></i></a>
+                                                        
+                                                                </span>
+                                                                <!--en-->
+                                                                <section class="post-tags en ">
+                                                                    <div>
+                                                                        <span>Tag(s):</span>
+                                                                        <span class="tag ">
+                        
+                        
+                        <a href="https://fateinheritors.github.io/tag/gd-i3GdUrw/">#
+                                                B
+                                                    </a>
+                                                    
+                        <a href="https://fateinheritors.github.io/tag/NinKfZWcTF/">#
+                                                Servant
+                                                    </a>
+                                                    
+                                                        
+                                                            </span>
+                                                                    </div>
+                                                                    <div>
+                                                                        <a href="javascript:window.history.back();">back</a>
+                                                                        <span>&dot;</span>
+                                                                        <a href="#">home</a>
+                                                                    </div>
+                                                                </section>
+                                                                
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                        <a class="prev" rel="prev" href="https://fateinheritors.github.io/post/master-Yuichiro/">
+                                                                                            【Master】志摩 佑一郎
+                                                                                        </a>
+                                                                                        
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://fateinheritors.github.io/post/berserker-Curator/">
+                                                                                                    【Berserker】馆长
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                    </article>
+                </div>
+                
+                                            
+            </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="player"></div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        Supported by <a href="https://www.wesleyan.edu/" target="_blank">Wesleyan University</a>
+                            
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        Fate/Inheritors &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://typemoon.com/" target="_blank">
+                                                TYPE-MOON
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.5
+                </div>
+                
+                    <script>
+                        var pat = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + pat + '</div>')
+                    </script>
+        </footer>
+        
+                <script>
+                    
+
+                    function LoadPlayer() {
+                        var music_array = [];
+                        
+                        music_array.push({
+                            name: 'Goldberg Variations, BWV 988:Aria',
+                            url: 'http://music.163.com/song/media/outer/url?id=18001009.mp3',
+                            artist: 'Bach',
+                            cover: 'https://p2.music.126.net/wm5ailNq6zWQIUR_crS2iA==/109951165154080243.jpg',
+                        });
+                        
+                        console.log(" MusicList: " + music_array);
+                        
+                        const ap = new APlayer({
+                            container: document.getElementById('player'),
+                            fixed: true,
+                            audio: music_array
+                        });
+                        
+                    }
+                    LoadPlayer();
+                    
+                    
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1792174043605);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+                
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>
+<script>
+(function () {
+    // 禁止右键菜单
+    document.addEventListener("contextmenu", function (event) {
+        event.preventDefault();
+    });
+
+    // 禁止常见开发者工具和查看源代码快捷键
+    document.addEventListener("keydown", function (event) {
+        const key = event.key.toUpperCase();
+
+        // F12
+        if (event.key === "F12") {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+
+        // Ctrl + Shift + I / J / C
+        if (
+            event.ctrlKey &&
+            event.shiftKey &&
+            ["I", "J", "C"].includes(key)
+        ) {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+
+        // Ctrl + U
+        if (event.ctrlKey && key === "U") {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+
+        // Mac: Cmd + Option + I / J / C
+        if (
+            event.metaKey &&
+            event.altKey &&
+            ["I", "J", "C"].includes(key)
+        ) {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+
+        // Mac: Cmd + Option + U
+        if (event.metaKey && event.altKey && key === "U") {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+    }, true);
+})();
+</script>

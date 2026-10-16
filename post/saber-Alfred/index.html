@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    Fate/Inheritors
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<meta name="author" content="Fate/Inheritors">
+<meta name="description" content="勿惋惜，勿嘲笑，勿憎恶，唯求理解。">
+<meta name="keywords" content="">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://fateinheritors.github.io/styles/main.css" />
+<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+    
+            <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.12/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.12/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://fateinheritors.github.io">
+                    Fate/Inheritors
+                </a>
+            </div>
+
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        首页
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        归档
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        标签
+                    </a>
+                    
+                    <a class="menu-item" href="https://fateinheritors.github.io/post/wesleyan-holy-grail-war">
+                        时间线？
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1792174043605" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://fateinheritors.github.io">
+                            Fate/Inheritors
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1792174043605" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            首页
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            归档
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            标签
+                        </a>
+                        
+                        <a class="menu-item" href="https://fateinheritors.github.io/post/wesleyan-holy-grail-war">
+                            时间线？
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                【Saber】阿尔弗雷德
+                            </h1>
+                            
+                                <!--en-->
+                                <div class="post-meta en">
+                                    Author:
+                                    <a itemprop="author" rel="author" href="/">
+                                        Fate/Inheritors
+                                    </a>
+                                    <span class="post-time">
+                                Date: <a href="#">2026-10-11</a>
+                            </span>
+                                    <span class="post-readtime">Reading Time:<a
+                                    href="#">21.6
+                                    mins</a></span>
+                                    <span class="post-words">words:<a href="#">6389</a></span>
+                                    
+                                        <span class="post-category">
+                                Category:
+                                
+                                <a href="https://fateinheritors.github.io/tag/gd-i3GdUrw/">B</a>
+                                
+                                <a href="https://fateinheritors.github.io/tag/NinKfZWcTF/">Servant</a>
+                                
+                            </span>
+                                        
+                                </div>
+                                
+                        </header>
+                        
+                          
+                        
+<div id="password-gate" style="max-width: 420px; margin: 40px auto; text-align: center;">
+<h3>这篇文章需要密码</h3>
+<p>请输入密码以继续阅读。</p>
+<input
+         id="post-password-input"
+         type="password"
+         placeholder="请输入密码"
+         style="padding: 10px; width: 70%; max-width: 260px;"
+     >
+<button type="button" onclick="unlockPost()" style="padding: 10px 16px; cursor: pointer;">
+解锁文章
+</button>
+<p id="password-error" style="color: #c44;"></p>
+</div>
+
+<div id="protected-content" style="display: none;">
+    <div class="post-content">
+        <p><img src="https://fateinheritors.github.io/post-images/1791650758446.png" alt="" loading="lazy"><br>
+<img src="https://fateinheritors.github.io/post-images/1791650762883.jpeg" alt="" loading="lazy"><br>
+<img src="https://fateinheritors.github.io/post-images/1791650766348.jpeg" alt="" loading="lazy"></p>
+<p>Master：<a href="https://fateinheritors.github.io/post/master-Seamus">谢默斯·奥德里什莱恩</a></p>
+<p>马克思·韦伯</p>
+<p>Saber职阶：受到非 Assassin 的偷袭和非 Archer 的远程攻击时会收到预警，应对此攻击的闪避 鉴定+10%。</p>
+<p>基础属性<br>
+筋力 B（4）<br>
+耐力 C+（3.5）<br>
+敏捷 D（2）<br>
+魔力 C+（3.5）<br>
+幸运 D（2）<br>
+宝具 A（5）<br>
+HP：28（初始）+15+3<em>3（C级）＝52<br>
+MP：15（初始）+10+2</em>3（C级）＝31<br>
+普通攻击成功率：30%（初始）+10%*4（B级）＝70%<br>
+敏捷鉴定成功率：10%（初始）+10%*2（D级）+3%（狂化）＝33%<br>
+幸运鉴定/闪避成功率：10%（初始）+5%*2（D级）＝20%</p>
+<p>职阶技能<br>
+对魔力 B（4）<br>
+给其他魔术使用者一种“似乎其本身便是【拒斥】着魔术的存在”的感受。这种莫名的感受并没有确定的解读方式，不同的对象会根据自己的情况理解。<br>
+获得4点宝具伤害减免。<br>
+狂化 C（3）<br>
+视为命运折磨的终生精神障碍成为了力量的一部分。被间歇性的剧烈身心痛苦刺激，似乎增加了孤注一掷的选项。<br>
+敏捷+3%，交流有些困难。</p>
+<p>固有技能<br>
+志业之召命（Beruf）B（6）<br>
+对学术与政治的热情，能够激起面对现实的勇毅。人类的幸福不可求得，但人类高贵的精神与品格可以自荒凉的大地上超拔而出。<br>
+附着于其武器决斗刺剑“Damon”上的固定技能，战时使用该武器攻击造成的伤害提升。可消耗一定MP清除一种自身受到的负面效果。<br>
+普通伤害提升为D5+D2。消耗3MP，可解除一条自身受到的非宝具的【持续伤害类/减益类】负面效果。</p>
+<p>卡里斯玛支配（Gnadengabe）D（4）<br>
+使他人在与自身交互时，会倾向于将自身理想化，甚至看作拥有超凡本质的人物。自身的言行举止在他人眼里变得富有感染力和煽动性。<br>
+一个大回合内，非战时可以指定一定数量的技能获得奖励骰。<br>
+一个大回合内，非战时可以指定主从双方共5次的技能获得一个奖励骰，但不可累计。</p>
+<p>宝具<br>
+理性的囚笼（Entzauberung）C<br>
+对人宝具<br>
+“面对时代宿命的肃杀面容，而无能正视之，是为软弱。——入现代之门者，弃绝一切幻想！”<br>
+拂去神圣与幻术的面纱，将起源于魔力的物品转化为原本的形态，将由非理性崇拜造就的力量还原为其真容。<br>
+消耗7MP，选定一个敌方单位，驱散其持有的正面状态，攻击对其带有无敌贯通。常态下对能力基于幻术或非理性崇拜者造成的普通攻击伤害提升至D5+2D2。</p>
+<p>诸神之战（Weihe）A<br>
+对军宝具<br>
+“我的心尚未死，其中盘踞着魔鬼的力量。拨动我生命之弦的魔神（Damon）啊，我将自己奉献于你——”<br>
+诸神的冲突不可调和。“谁有资格掌握历史的舵轮？”宣告投身于自己的“神”，并向其他价值理念的代言人发起决斗。<br>
+CD：一场战斗一次<br>
+真名解放，消耗10MP吟唱1轮，以发起决斗的宣言选定同一地图格内至多三个单位，对其造成12HP伤害。额外消耗5MP可以在这些单位中选择一个，与之一同进入等效于固有结界的“诸神战场”中，该固有结界不具有HP，而是类似于对人宝具，Saber将与选定对象脱离当前战斗轮进行一对一决斗，在3轮/一方剩余10HP前无法以令咒或传送之外的方式结束决斗。两种宝具效果可以改变顺序但需要在单挑结束后使用，也可以分开使用。</p>
+<h2 id="世上再无这样的人马克斯韦伯简介">“世上再无这样的人”：马克斯·韦伯简介</h2>
+<h3 id="一-韦伯人物形象的基本特征">一  韦伯人物形象的基本特征</h3>
+<p>“世上再无这样的人；世间的一切不过尔尔。”这是马克斯·韦伯的传记作者玛丽安妮·韦伯为他选择的墓志铭。本文中，我们将以对韦伯其人的一些基本介绍开篇，并辅以对其性格的分析。之后的章节会将韦伯的思想与其行为特征结合起来讨论。可以在百度百科上直接查询到的内容不包括在本文之中。<br>
+一、冷静克制的行事风格。<br>
+韦伯所处的时代，是一个从不缺乏权威、狂热与崇拜的时代，但韦伯的行事风格始终以超然、理性地审视事物与自身为前提。他客观评价俾斯麦的功过，对于中产阶级对俾斯麦的非政治性英雄崇拜表示不齿；他曾认真考虑过是否加入社会主义者行列，在冷静分析、承认自己无法满足其伦理前提后放弃；一战爆发时他饱含民族激情，但很快转入严谨的政治分析，“揭发了主战派的行径其实是军火贩子与农业资本家的一场赌博”。在种种不乏狂热的政治浪潮，以及个人对政治的深入参与之间，韦伯始终保持着客观理性的态度。<br>
+韦伯不神化外界的人或理念，也拒绝他人神化自己，这之中体现着他的道德观。纵然身为有超群智慧和卓越影响力，乃至于被评价为“魅力型人物”“演讲富有煽动性”的学者，韦伯始终保持着行事的克制。他从不缺乏年轻的崇拜者，但他向来不以自己不齿的方式利用影响力：他不愿做年轻人渴望的“先知”“领袖”，并拒绝在公众面前“表露灵魂”。他数十年如一日地反对那些“讲台上的传教士”，即在学术活动中强行向学生灌输自己政治观点的教师。他以如一的理智追求个人精神的独立自由，也捍卫和引导他人的精神自由。<br>
+二、情感上的独立与表现的特殊性。<br>
+早慧的韦伯在少年时期情感封闭，人们只知他智力超群、思想丰富，却连亲人也无从窥见其内心世界的一角，这曾使他的母亲担忧。上大学后，韦伯的性格变得更加成熟和开放，但他在情感上始终与常人仿佛有些距离：在一个母亲有着强烈宗教情感的家庭环境中，他自称“完全缺乏宗教共鸣”，以一种克制的远观态度认识宗教，而被人视为更多是一个“个人主义者”，甚至“马基雅维利主义者”；对这种“缺乏”他表示，“在这方面，我觉得自己有所残缺，是个发育不全的人，其命运便是诚实地承认这个事实，承认自己必须在这个条件下自处。”他同样自认为不善表达感情和与他人进行感情交流。然而，这并不意味着韦伯是一个无情之人：他对亲人的真挚感情、对大自然神奇风光的赞叹等情感充溢在他的信件中。他有着深邃的情感，但因为固有的缺陷和本人对情感的真诚，而让这种情感难以表达和与他人建立依附关系，并终身笼罩在紧张之中。<br>
+韦伯情感的独立性鲜明地体现在他和父母的关系中。少年时代的韦伯在情感上偏向父亲，但随着年龄的增长，父母感情中潜藏的矛盾暴露，韦伯逐渐发现父亲并不理解母亲纯洁高尚的宗教情感与内心的幽微感情，而是理所应当地忽视她的需要并享受她的服侍，便开始厌弃父亲的享乐主义行事风格，在情感上追随母亲。最终在一次激烈争吵（并据说将父亲赶出了韦伯的家门）后，他与父亲决裂，韦伯的传记认为这是“他自觉地在父母之间选择自己人生道路”的体现。然而，此事后不久父亲去世，韦伯从此背负了巨大的罪恶感，并在之后精神崩溃。<br>
+三、尚武精神、荣誉意识与强烈的民族情感。<br>
+迥异于对文人学者的刻板印象，韦伯的人生中有着鲜明的尚武和强硬色彩。少年时他尚是一个瘦弱、警觉、情感封闭的形象（虽然那时他就开始上击剑课），而进入大学后，他加入了学生社团“阿勒曼人”（也称为“决斗兄弟会”），在那里与其他成员一起决斗（据记载他与当时很多人一样在脸上和身上都留下了伤疤）并赢取勋带、狂饮、参加聚会和各种活动，并养成和遵守兄弟会的“男子汉气概”——强调人际交往保持距离、荣誉感和规范的行为举止。后来韦伯在回顾时评价道：“决斗兄弟会在桀骜不驯的侵略性方面的一般训练，以及身为预备军官（指在斯特拉斯堡服役的经历），无疑地给予我相当深沉的影响，一扫我在成长时期害羞与缺乏安全感的气质。”而这种身心上的变化实在太过于巨大，以至于年轻的韦伯回去看望母亲时，她震惊得抽了他。<br>
+这种富有尚武精神、维护纪律与荣誉的自觉是当时德国的一种社会风气，与积极投入其中相应的，韦伯具有深厚的民族感情。他在政治氛围浓郁的家庭长大，深深关注着德国的国家命运。在对易北河东岸地区进行的经济研究中，他表现出对德意志民族生存竞争的极大关注与担忧；他希望德意志民族成为“主民族”，盼望德国成为世界强国；一战爆发后，他遗憾自己无力上前线；德国战败后，巨大的民族屈辱感让他深深痛苦，为了挽回民族的荣誉，他不惜当面劝说被视为战犯的鲁登道夫将军自裁；鲁登道夫拒绝后，韦伯深感失望。然而必须注意的是，韦伯决不是一个庸俗的沙文主义者。他反对反犹主义与种种粗暴的民族主义政策，并对军方和官僚体系支持操纵“兄弟会”一类机构，以“驯服”上层青年、使他们走向极端的行径大加批判。<br>
+四、“骑士精神”与高度的道德自觉。<br>
+韦伯有着严格的荣誉感和见义勇为的骑士精神。无论是面对妻子及其妇女同道受辱、朋友乃至素不相识的人陷入困难、政治立场不同者遭遇不公对待、有才华的学者被政治偏见排斥，韦伯都愿意主动伸出援手，利用他的法律知识、看待世事的智慧和强大的行动力，帮助他人脱离苦难。而在自身遭到侮辱、对手颠倒黑白的行为伤害了社会利益时，已经上了年纪、身体状况不佳的韦伯毅然向对方发起决斗。对于韦伯骑士精神的表现方式，其传记中有如下描述：“个性使然，韦伯处事每每发之于冲动和义愤。但是，一旦他所发动的力量在道德上击溃了对手，他的愤怒会平息，内心充满着慈悲和同情；而若他意识到在有过失的人之外的其他人，为他的行动所累，他的反应更是如此。”<br>
+韦伯虽缺乏宗教情感，但同样高度关注道德。总体上他严于律己、宽以待人，并不因为一个人的一些过失而将这个人全盘否定；他并不总能做到对自己的道德要求，但也常常流露出罪恶感和忏悔。面对弗洛伊德派学者鼓吹性放纵以有利于个人的“神经健康”，他给予辛辣的嘲讽，称这只是在为道德沦丧的行为找理由。他不能接受只从实用主义来考虑事情，而解除了“英雄伦理”对个人的要求。他严格的良知让他有时失于情绪激动和“粗暴”，并坚决地推开他的朋友；但认识到自己的过失后，也会真挚地表达歉意。<br>
+五、面对命运的“斗士”姿态。<br>
+韦伯在与父亲决裂后，陷入了数年的精神崩溃，并在他的余生中多次进出精神病院和疗养地，遭受着间歇性的剧烈身心痛苦。工作会诱发他的精神崩溃症状，但把精神问题看做自己的命运并与之斗争的韦伯仍然不断地勉强自己工作。在精神崩溃的休养时期，学院照样给他发工资，但韦伯对此感到良心不安、耿耿于怀，“他认为，只有工作中的人，才算是一个完全的人；于是他强迫自己工作。”而精神问题缓解之后，他也重复着工作——症状复发——休养的循环，他的广泛阅读、著书立说、教学工作等等活动与终生的精神障碍交织在一起。对于他来说，工作堪称人格完整性的一部分。他拒绝他人的劝解，也从不沉浸于自我怜悯。<br>
+德国在一战中战败后，韦伯感受到了巨大屈辱的冲击，认为民族精神已经沦丧。但他并未一味悲观，而是积极参与补救工作，参加凡尔赛和谈、为德国争取有利条件，即使结果令他失望；参与组建德国民主党、推动民主改革，并发表题为《以政治为志业》的演讲，将政治伦理传递给新一代人。韦伯曾说：“面对时代宿命的肃杀面容，而无能正视之，是为软弱。”被后世学者称为“幽灵斗士”的韦伯，正是以勇毅目光一以贯之正视着时代与自我命运的人。<br>
+而想要理解韦伯性格特征与行为模式背后的理由，则需要结合他的主要思想分析。</p>
+<h3 id="二-其人与其学于荒凉中清澈">二  其人与其学：于荒凉中清澈</h3>
+<p>韦伯的思想被学者誉为“现代思想的成年”。他被后世研究者称为“我们的同代人”，原因在于他的学说切中了理解理性化的现代世界的关键。韦伯认为，在“世界的祛魅”后，不再有统一的终极价值标准，人必须清醒地认识到这一点；诸价值之间的冲突不可调和，各人遵从自己的信念行动，便形成了“诸神之战”的世界图景。他把理性分为工具理性和价值理性，在理性化的过程中，工具理性日益扩张、占据上风；理性化背景下形成的官僚制度在提高效率的同时最大程度地抹平了个人因素；理性化创造了空前辉煌的物质文明，也让价值空洞的“铁制牢笼”困住了其中的每一个人。“专家没有灵魂，纵欲者没有心肝；这个废物却幻想着自己已经达到了前所未有的文明高峰！”<br>
+而通过结合《以学术为志业》《以政治为志业》两篇演讲，分析韦伯如何在自己的言行中回应他的上述洞见，我们可以一窥韦伯深层次的行动逻辑。<br>
+《以学术为志业》中，韦伯在开篇先破除了学生对学术作用的幻想：他认为学术本身应当价值中立，对其能够反映的知识范围有严格的自我限制，认为学术本身是某种终极真理、能够裁决人生意义领域之事物的说法是无意义的——“学术不能为我们指引通往真实存在之路、通往真实上帝之路、通往真实自然之路、通往真实艺术之路，或是通往真实幸福之路。”但韦伯认为，学术之于个人的价值，除了提供具体知识和思维训练，便是使人获得“清明”（Selbstbesinnung）。而一位选择了以学术为志业的学者，决不能把宗教信徒式的“理知的牺牲”带入到学术里面来，而要意识到在学术领域内“惟一的德性，便是平实的知性诚实”。<br>
+《以政治为志业》中，韦伯认为，一些人“依赖政治而活”——把从事政治当做一种谋生手段；一些人“为了政治而活”——在投身政治事业中获得人生的意义。一位真正的政治家，不能仅仅像事务官僚那样以服从作为行事标准，而要拥有热情、责任感和判断力这三种关键品质。韦伯区分了“心志伦理”和“责任伦理”：心志伦理指从出发点来考虑行动，坚持道德的纯洁性；责任伦理则要考虑可能性、可行性与最终的后果，为承担这样的责任，不惜背负道德上的污点；这两种伦理并非截然对立，两者相合之时，便构成了能够以从事政治为使命的人。在演讲中，韦伯强调了责任伦理对于政治家的重要性：现实是多么严酷，目的与手段之间往往存在紧张关系，而用目的来为手段辩护是多么困难（心志伦理往往做不到这一点）。韦伯表示，现实中善可以转化为恶，恶也可以转化为善；许多时候只有恶才能遏制恶，而政治与“盘踞着魔鬼的”武力、与恶之概念的关系又是如此之深。他批判那些拘泥于道德纯洁性、沉浸在不切实际的自我感动中的人；而真正正确的，是“真诚而全心地对后果感到责任，按照责任伦理行事”。能够以政治为志业的人，必须不懈追求不可能之事，必须坚韧而泰然地面对一切希望的破灭，必须能够直面这个“愚蠢庸俗到了不值得自己献身的地步的世界”而屹立不倒。<br>
+韦伯看到了现代价值的多元性，但他并不是相对主义者。他说：“个人必须自己决定，对他来说，哪一个是上帝，哪一个是魔鬼。在生命的各个层面，情况都是如此。”<br>
+对于韦伯来说，在诸神交战的世界里，个人选择自己的价值领域，恰恰是保留了自由与尊严；而责任伦理之路则是在理性化的背景下让工具理性与价值理性合一，改变“专家没有灵魂”的局面，使人能重新找到出路的道路。而韦伯不仅选择了学术与政治作为志业，更是在他的一生中践行了责任伦理。譬如劝鲁登道夫自裁：在基督教文化里，人的善恶生死只有神能够裁定；在普通人的观念中，判决一人以死至少也应由公共权力机构完成。但韦伯还是对鲁登道夫说：“只有你牺牲自己，才能挽回国家的荣誉。”鲁登道夫拒绝了；韦伯并没有真的背负劝人自裁之恶。但并不仅仅在这一次，他怀着“清明”，向魔鬼伸出了手。<br>
+有学者以罗曼·罗兰的名言“世界上只有一种真正的英雄主义，那就是在认清生活的真相之后依然热爱生活”来作为对韦伯行事伦理的一种描绘。无疑，韦伯的表达中看不见浪漫情调，而充满了面对现实的冷峻与决绝。在《以政治为志业》的演讲中，他问道，“到了长夜逐渐露白之时，在今天看来拥有花朵灿烂的春天的人，尚有几个仍然存活？到了那个时候，诸君的内在生命又已变成何种面貌？恨怨还是已转为庸俗？”韦伯从不恨怨命运，也不庸俗过活。对于他来说，直面清澈之后的荒凉，并在荒凉中保持清澈并承担代价，便是他为自己的内在生命选择的“英雄主义”。</p>
+<h3 id="三-迟知的罪愆圣杯战争中的从者韦伯">三  迟知的罪愆：圣杯战争中的从者韦伯</h3>
+<p>韦伯认为，文官制度中官僚在“事务官”和“政务官”上的分野（某种意义上似乎呼应了他关于工具理性和价值理性的思想）造成了一定的弊端。为了打破“理性的铁笼”，他认为现代社会仍然需要卡里斯玛型领袖（拥有非凡的个人魅力与领导力，使人们信仰其人本身的领袖人物），但他也承认在这个制度越发完善的时代，卡里斯玛型领袖的出现越发困难。<br>
+一战后魏玛共和国成立，韦伯作为专家顾问加入了魏玛宪法起草委员会。委员会中存在各种政治派别，一些人的主张与韦伯不同，导致魏玛宪法中的制度被设计得十分复杂；韦伯出于对这种“极其理性化的官僚机器”的警惕和对议会“无领袖民主”的忧虑，主张一种总统具有极大权力的制度。在他的设想中，总统由全民直选产生，能够赢得大众拥戴、打破僵局、领导国家，并修正民主制度的某些弊端。可以说，韦伯的这一意见正是把他卡里斯玛型领袖的理想寄托在了总统这一位置上。<br>
+于是，韦伯坚持在宪法中加入一些条款，赋予了总统任命总理、解散议会、宣布紧急戒严并绕过议会采取紧急行动的权力。而问题在于，该宪法的最终形态没有建立起有效约束总统滥用权力的制度。死于1920年的韦伯生前没能料到，1925年，一战后民族主义炽盛的德国选举出了保守的军官兴登堡做总统；1933年，希特勒被兴登堡总统合法地任命为总理。这之后，纳粹党促使兴登堡签署法令，终止了宪法中关于个人权利保护的核心条款，德国的民主制度名存实亡；而希特勒的上台与纳粹的崛起，也将世界拉向了毁灭的深渊。在设计魏玛宪法时，韦伯的出发点是好的，但他设计出的制度的确为希特勒夺取权力打开了方便之门。无怪于为韦伯写作小传的学者阿宏（Raymond Aron）称，“历史就是人类创造一段他所不知道的历史的一场悲剧。”<br>
+现在让我们来讨论企划中韦伯作为从者参加圣杯战争的动机。被召唤后了解到自己死后德国的历史，以及自己设计的制度的重大缺陷的韦伯，或许会认识到自身理性的限度。而在其认识中作为许愿机的圣杯，则甚至能够实现想要毁灭世界、或（如韦伯批判的那样）抱有不切实际的幻想、或（如韦伯曾经做的那样）以错误的方式试图“拯救世界”的人的愿望。因此，从者韦伯在圣杯战争中的目标应当是“阻止其他人使用圣杯许下可能会带来极其恶劣后果的愿望”。而在某种程度上，带着各自愿望争夺圣杯的主从本身便是他们各自信奉的“诸神”的代言人；在历史上没有机会经受真正残酷考验的韦伯，在圣杯战争中也必须为了上述目标投身于责任伦理使用“盘踞着魔鬼”的武力，为掌握了他生命之弦的“魔神”（Damon）效劳。<br>
+而鉴于偶然参战的御主谢默斯·奥德里什莱恩对使用圣杯许愿并无执念，仅仅希望能与家人在一起，与目标是阻止圣杯被用于事实上作恶（因此如果御主对圣杯的使用有自己的要求，情况就会很麻烦）的从者韦伯具有异乎寻常的好相性。拥有骑士精神的从者韦伯会乐于保护自己的御主并尽可能地帮助他，无论是写出论文还是活着回到家人身边。</p>
+
+    </div>
+</div>
+
+<script>
+    function unlockPost() {
+        const input = document.getElementById("post-password-input").value;
+        const correctPassword = "672778";
+
+        if (input === correctPassword) {
+            document.getElementById("password-gate").style.display = "none";
+            document.getElementById("protected-content").style.display = "block";
+        } else {
+            document.getElementById("password-error").textContent = "密码错误，请重试。";
+        }
+    }
+
+    document.getElementById("post-password-input").addEventListener("keydown", function(event) {
+        if (event.key === "Enter") unlockPost();
+    });
+</script>
+
+
+                        
+                                
+                                    
+                                        <!--en-->
+                                        <section class="post-copyright en">
+                                            <p class="copyright-item">
+                                                <span>Author:</span>
+                                                <span>Fate/Inheritors</span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>Permalink:</span>
+                                                <span><a href="https://fateinheritors.github.io/post/saber-Alfred/">https://fateinheritors.github.io/post/saber-Alfred/</a></span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>License:</span>
+                                                <span>MIT License</span>
+                                            </p>
+                                        </section>
+                                        
+                                                
+                                                    
+                                                        <!-- Share-->
+                                                        <span style="margin-right:15px">
+                                                    <i class="post-share"></i>
+                                                    <span>Share:</span>
+                                                        <a title="QR Code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://fateinheritors.github.io/post/saber-Alfred/"><i class="fa fa-qrcode"></i></a>
+                                                        <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://fateinheritors.github.io/post/saber-Alfred/&sharesource=qzone&title=【Saber】阿尔弗雷德&pics=https://fateinheritors.github.io/images/avatar.png?v=1792174043605&summary="><i class="fa fa-qq"></i></a>
+                                                        <a title="Weibo" target="_blank" href="https://service.weibo.com/share/share.php?url=https://fateinheritors.github.io/post/saber-Alfred/&sharesource=weibo&title=【Saber】阿尔弗雷德 + " - " + &pic="https://fateinheritors.github.io/images/avatar.png?v=1792174043605 "><i class="fa fa-weibo "></i></a>
+                                                        
+                                                                </span>
+                                                                <!--en-->
+                                                                <section class="post-tags en ">
+                                                                    <div>
+                                                                        <span>Tag(s):</span>
+                                                                        <span class="tag ">
+                        
+                        
+                        <a href="https://fateinheritors.github.io/tag/gd-i3GdUrw/">#
+                                                B
+                                                    </a>
+                                                    
+                        <a href="https://fateinheritors.github.io/tag/NinKfZWcTF/">#
+                                                Servant
+                                                    </a>
+                                                    
+                                                        
+                                                            </span>
+                                                                    </div>
+                                                                    <div>
+                                                                        <a href="javascript:window.history.back();">back</a>
+                                                                        <span>&dot;</span>
+                                                                        <a href="#">home</a>
+                                                                    </div>
+                                                                </section>
+                                                                
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                        <a class="prev" rel="prev" href="https://fateinheritors.github.io/post/master-isaac-brody/">
+                                                                                            【Master】Isaac Brody
+                                                                                        </a>
+                                                                                        
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://fateinheritors.github.io/post/master-Seamus/">
+                                                                                                    【Master】谢默斯·奥德里什莱恩
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                    </article>
+                </div>
+                
+                                            
+            </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="player"></div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        Supported by <a href="https://www.wesleyan.edu/" target="_blank">Wesleyan University</a>
+                            
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        Fate/Inheritors &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://typemoon.com/" target="_blank">
+                                                TYPE-MOON
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.5
+                </div>
+                
+                    <script>
+                        var pat = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + pat + '</div>')
+                    </script>
+        </footer>
+        
+                <script>
+                    
+
+                    function LoadPlayer() {
+                        var music_array = [];
+                        
+                        music_array.push({
+                            name: 'Goldberg Variations, BWV 988:Aria',
+                            url: 'http://music.163.com/song/media/outer/url?id=18001009.mp3',
+                            artist: 'Bach',
+                            cover: 'https://p2.music.126.net/wm5ailNq6zWQIUR_crS2iA==/109951165154080243.jpg',
+                        });
+                        
+                        console.log(" MusicList: " + music_array);
+                        
+                        const ap = new APlayer({
+                            container: document.getElementById('player'),
+                            fixed: true,
+                            audio: music_array
+                        });
+                        
+                    }
+                    LoadPlayer();
+                    
+                    
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1792174043605);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+                
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>
+<script>
+(function () {
+    // 禁止右键菜单
+    document.addEventListener("contextmenu", function (event) {
+        event.preventDefault();
+    });
+
+    // 禁止常见开发者工具和查看源代码快捷键
+    document.addEventListener("keydown", function (event) {
+        const key = event.key.toUpperCase();
+
+        // F12
+        if (event.key === "F12") {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+
+        // Ctrl + Shift + I / J / C
+        if (
+            event.ctrlKey &&
+            event.shiftKey &&
+            ["I", "J", "C"].includes(key)
+        ) {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+
+        // Ctrl + U
+        if (event.ctrlKey && key === "U") {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+
+        // Mac: Cmd + Option + I / J / C
+        if (
+            event.metaKey &&
+            event.altKey &&
+            ["I", "J", "C"].includes(key)
+        ) {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+
+        // Mac: Cmd + Option + U
+        if (event.metaKey && event.altKey && key === "U") {
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+    }, true);
+})();
+</script>
